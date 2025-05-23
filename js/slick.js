@@ -1,5 +1,5 @@
 $(function () {
-  $(".e-m-reviews-list").slick({
+  $(".e-n-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -9,12 +9,12 @@ $(function () {
     speed: 1000,
 
     cssEase: "linear",
-    prevArrow: ".e-m-reviews-list-left",
-    nextArrow: ".e-m-reviews-list-right",
+    prevArrow: ".e-n-reviews-list-left",
+    nextArrow: ".e-n-reviews-list-right",
   });
 });
 $(function () {
-  $(".e-m-why-list").slick({
+  $(".e-n-contact-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -22,8 +22,9 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
+
     cssEase: "linear",
-    prevArrow: ".e-m-why-list-left",
-    nextArrow: ".e-m-why-list-right",
+    prevArrow: ".e-n-contact-list-left",
+    nextArrow: ".e-n-contact-list-right",
   });
 });
